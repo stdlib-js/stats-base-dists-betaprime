@@ -1,0 +1,40 @@
+{
+  "name": "@stdlib/stats-base-dists-betaprime",
+  "version": "0.0.0",
+  "description": "Beta prime distribution.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-base-dists-betaprime.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "standard",
+    "library",
+    "std",
+    "lib",
+    "statistics",
+    "stats",
+    "probability",
+    "prob",
+    "distribution",
+    "dist",
+    "beta",
+    "prime",
+    "inverted",
+    "continuous",
+    "betaprime",
+    "univariate"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
