@@ -24,20 +24,30 @@ limitations under the License.
 
 > Beta prime distribution.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists-betaprime
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import betaprime from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { BetaPrime, cdf, kurtosis, logcdf, logpdf, mean, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime@deno/mod.js';
+var betaprime = require( '@stdlib/stats-base-dists-betaprime' );
 ```
 
 #### betaprime
@@ -95,7 +105,7 @@ The namespace contains a constructor function for creating a [betaprime][betapri
 <!-- </toc> -->
 
 ```javascript
-var BetaPrime = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime' ).BetaPrime;
+var BetaPrime = require( '@stdlib/stats-base-dists-betaprime' ).BetaPrime;
 
 var dist = new BetaPrime( 2.0, 4.0 );
 
@@ -116,8 +126,8 @@ var mu = dist.mean;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import betaprime from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var betaprime = require( '@stdlib/stats-base-dists-betaprime' );
 
 console.log( objectKeys( betaprime ) );
 ```
@@ -143,7 +153,7 @@ console.log( objectKeys( betaprime ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -173,8 +183,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-dists-betaprime.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-dists-betaprime
 
-[test-image]: https://github.com/stdlib-js/stats-base-dists-betaprime/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/stats-base-dists-betaprime/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/stats-base-dists-betaprime/actions/workflows/test.yml/badge.svg?branch=v0.0.7
+[test-url]: https://github.com/stdlib-js/stats-base-dists-betaprime/actions/workflows/test.yml?query=branch:v0.0.7
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-dists-betaprime/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-dists-betaprime?branch=main
@@ -207,29 +217,29 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/betaprime/ctor]: https://github.com/stdlib-js/stats-base-dists-betaprime-ctor/tree/deno
+[@stdlib/stats/base/dists/betaprime/ctor]: https://github.com/stdlib-js/stats-base-dists-betaprime-ctor
 
-[@stdlib/stats/base/dists/betaprime/kurtosis]: https://github.com/stdlib-js/stats-base-dists-betaprime-kurtosis/tree/deno
+[@stdlib/stats/base/dists/betaprime/kurtosis]: https://github.com/stdlib-js/stats-base-dists-betaprime-kurtosis
 
-[@stdlib/stats/base/dists/betaprime/mean]: https://github.com/stdlib-js/stats-base-dists-betaprime-mean/tree/deno
+[@stdlib/stats/base/dists/betaprime/mean]: https://github.com/stdlib-js/stats-base-dists-betaprime-mean
 
-[@stdlib/stats/base/dists/betaprime/mode]: https://github.com/stdlib-js/stats-base-dists-betaprime-mode/tree/deno
+[@stdlib/stats/base/dists/betaprime/mode]: https://github.com/stdlib-js/stats-base-dists-betaprime-mode
 
-[@stdlib/stats/base/dists/betaprime/skewness]: https://github.com/stdlib-js/stats-base-dists-betaprime-skewness/tree/deno
+[@stdlib/stats/base/dists/betaprime/skewness]: https://github.com/stdlib-js/stats-base-dists-betaprime-skewness
 
-[@stdlib/stats/base/dists/betaprime/stdev]: https://github.com/stdlib-js/stats-base-dists-betaprime-stdev/tree/deno
+[@stdlib/stats/base/dists/betaprime/stdev]: https://github.com/stdlib-js/stats-base-dists-betaprime-stdev
 
-[@stdlib/stats/base/dists/betaprime/variance]: https://github.com/stdlib-js/stats-base-dists-betaprime-variance/tree/deno
+[@stdlib/stats/base/dists/betaprime/variance]: https://github.com/stdlib-js/stats-base-dists-betaprime-variance
 
-[@stdlib/stats/base/dists/betaprime/cdf]: https://github.com/stdlib-js/stats-base-dists-betaprime-cdf/tree/deno
+[@stdlib/stats/base/dists/betaprime/cdf]: https://github.com/stdlib-js/stats-base-dists-betaprime-cdf
 
-[@stdlib/stats/base/dists/betaprime/logcdf]: https://github.com/stdlib-js/stats-base-dists-betaprime-logcdf/tree/deno
+[@stdlib/stats/base/dists/betaprime/logcdf]: https://github.com/stdlib-js/stats-base-dists-betaprime-logcdf
 
-[@stdlib/stats/base/dists/betaprime/logpdf]: https://github.com/stdlib-js/stats-base-dists-betaprime-logpdf/tree/deno
+[@stdlib/stats/base/dists/betaprime/logpdf]: https://github.com/stdlib-js/stats-base-dists-betaprime-logpdf
 
-[@stdlib/stats/base/dists/betaprime/pdf]: https://github.com/stdlib-js/stats-base-dists-betaprime-pdf/tree/deno
+[@stdlib/stats/base/dists/betaprime/pdf]: https://github.com/stdlib-js/stats-base-dists-betaprime-pdf
 
-[@stdlib/stats/base/dists/betaprime/quantile]: https://github.com/stdlib-js/stats-base-dists-betaprime-quantile/tree/deno
+[@stdlib/stats/base/dists/betaprime/quantile]: https://github.com/stdlib-js/stats-base-dists-betaprime-quantile
 
 <!-- </toc-links> -->
 
