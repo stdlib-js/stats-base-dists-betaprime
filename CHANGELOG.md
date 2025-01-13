@@ -4,9 +4,199 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-01)
+## Unreleased (2025-01-13)
 
-No changes reported for this release.
+<section class="packages">
+
+### Packages
+
+<section class="package" id="stats-base-dists-betaprime-kurtosis-unreleased">
+
+#### [@stdlib/stats/base/dists/betaprime/kurtosis](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/betaprime/kurtosis)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1a98e92`](https://github.com/stdlib-js/stdlib/commit/1a98e9262d48a49dde1925c2a1d501511d795f05) - add C implementation for `stats/base/dists/betaprime/kurtosis` [(#3459)](https://github.com/stdlib-js/stdlib/pull/3459)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3438](https://github.com/stdlib-js/stdlib/issues/3438)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-betaprime-skewness-unreleased">
+
+#### [@stdlib/stats/base/dists/betaprime/skewness](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/betaprime/skewness)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0fc07d1`](https://github.com/stdlib-js/stdlib/commit/0fc07d1722a3da70464b37d4de5f6a762468f85e) - add C implementation for `stats/base/dists/betaprime/skewness` [(#3462)](https://github.com/stdlib-js/stdlib/pull/3462)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3445](https://github.com/stdlib-js/stdlib/issues/3445)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-betaprime-stdev-unreleased">
+
+#### [@stdlib/stats/base/dists/betaprime/stdev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/betaprime/stdev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d1a200b`](https://github.com/stdlib-js/stdlib/commit/d1a200bc6ab344f9fcd8a33a70712456dbf479d0) - add C implementation for `stats/base/dists/betaprime/stdev` [(#3461)](https://github.com/stdlib-js/stdlib/pull/3461)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3446](https://github.com/stdlib-js/stdlib/issues/3446)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-betaprime-variance-unreleased">
+
+#### [@stdlib/stats/base/dists/betaprime/variance](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/betaprime/variance)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c77a433`](https://github.com/stdlib-js/stdlib/commit/c77a433d6e33ad5f4879d32211d8cfdb4e5fa2c6) - add C implementation for `stats/base/dists/betaprime/variance` [(#3460)](https://github.com/stdlib-js/stdlib/pull/3460)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3447](https://github.com/stdlib-js/stdlib/issues/3447)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 4 issues were closed in this release:
+
+[#3438](https://github.com/stdlib-js/stdlib/issues/3438), [#3445](https://github.com/stdlib-js/stdlib/issues/3445), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3447](https://github.com/stdlib-js/stdlib/issues/3447)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Aayush Khanna
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`f3df15f`](https://github.com/stdlib-js/stdlib/commit/f3df15f118d563573f27d2d2b96e35b842f05a18) - **chore:** directly draw from the desired distribution instead of adding constants _(by Philipp Burckhardt)_
+-   [`fc0ff17`](https://github.com/stdlib-js/stdlib/commit/fc0ff171dab59e73e1748c1bff504166adc826c3) - **chore:** directly draw from the desired distribution instead of adding constants _(by Philipp Burckhardt)_
+-   [`6a0d6b8`](https://github.com/stdlib-js/stdlib/commit/6a0d6b861f8e2079a501ca4e46a9175440eedb46) - **style:** update to use tabs for indentation _(by Philipp Burckhardt)_
+-   [`8bf8285`](https://github.com/stdlib-js/stdlib/commit/8bf8285aba0ecbd00ae145c4c5c098cd28135814) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`e450426`](https://github.com/stdlib-js/stdlib/commit/e450426813957ec4de5e31434edb969741db7c94) - **bench:** add missing native suffix _(by Philipp Burckhardt)_
+-   [`3c1789f`](https://github.com/stdlib-js/stdlib/commit/3c1789fdfe3ae56635ddf84fb5dfe229237794fa) - **docs:** add missing private annotations and decimals _(by Philipp Burckhardt)_
+-   [`1a98e92`](https://github.com/stdlib-js/stdlib/commit/1a98e9262d48a49dde1925c2a1d501511d795f05) - **feat:** add C implementation for `stats/base/dists/betaprime/kurtosis` [(#3459)](https://github.com/stdlib-js/stdlib/pull/3459) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
+-   [`c77a433`](https://github.com/stdlib-js/stdlib/commit/c77a433d6e33ad5f4879d32211d8cfdb4e5fa2c6) - **feat:** add C implementation for `stats/base/dists/betaprime/variance` [(#3460)](https://github.com/stdlib-js/stdlib/pull/3460) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
+-   [`0fc07d1`](https://github.com/stdlib-js/stdlib/commit/0fc07d1722a3da70464b37d4de5f6a762468f85e) - **feat:** add C implementation for `stats/base/dists/betaprime/skewness` [(#3462)](https://github.com/stdlib-js/stdlib/pull/3462) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
+-   [`d1a200b`](https://github.com/stdlib-js/stdlib/commit/d1a200bc6ab344f9fcd8a33a70712456dbf479d0) - **feat:** add C implementation for `stats/base/dists/betaprime/stdev` [(#3461)](https://github.com/stdlib-js/stdlib/pull/3461) _(by Aayush Khanna, Philipp Burckhardt, stdlib-bot)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
 
 </section>
 
