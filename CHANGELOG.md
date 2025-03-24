@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-13)
+## Unreleased (2025-03-24)
 
 <section class="packages">
 
@@ -33,6 +33,74 @@
 This release closes the following issue:
 
 [#3438](https://github.com/stdlib-js/stdlib/issues/3438)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-betaprime-mean-unreleased">
+
+#### [@stdlib/stats/base/dists/betaprime/mean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/betaprime/mean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6958670`](https://github.com/stdlib-js/stdlib/commit/695867014377f940a6ba5713ceaab4519d367bb3) - add C implementation for `stats/base/dists/betaprime/mean` [(#4064)](https://github.com/stdlib-js/stdlib/pull/4064)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+A total of 2 issues were closed in this release:
+
+[#3441](https://github.com/stdlib-js/stdlib/issues/3441), [#5070](https://github.com/stdlib-js/stdlib/issues/5070)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-betaprime-mode-unreleased">
+
+#### [@stdlib/stats/base/dists/betaprime/mode](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/betaprime/mode)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7a1ab74`](https://github.com/stdlib-js/stdlib/commit/7a1ab74ab292080a1479851e0986a781c7a88c1a) - add C implementation for `stats/base/dists/betaprime/mode` [(#4065)](https://github.com/stdlib-js/stdlib/pull/4065)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+A total of 2 issues were closed in this release:
+
+[#3442](https://github.com/stdlib-js/stdlib/issues/3442), [#5071](https://github.com/stdlib-js/stdlib/issues/5071)
 
 </section>
 
@@ -154,9 +222,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 8 issues were closed in this release:
 
-[#3438](https://github.com/stdlib-js/stdlib/issues/3438), [#3445](https://github.com/stdlib-js/stdlib/issues/3445), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3447](https://github.com/stdlib-js/stdlib/issues/3447)
+[#3438](https://github.com/stdlib-js/stdlib/issues/3438), [#3441](https://github.com/stdlib-js/stdlib/issues/3441), [#3442](https://github.com/stdlib-js/stdlib/issues/3442), [#3445](https://github.com/stdlib-js/stdlib/issues/3445), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3447](https://github.com/stdlib-js/stdlib/issues/3447), [#5070](https://github.com/stdlib-js/stdlib/issues/5070), [#5071](https://github.com/stdlib-js/stdlib/issues/5071)
 
 </section>
 
@@ -166,10 +234,13 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Karan Anand
+-   Neeraj Pathak
 -   Philipp Burckhardt
+-   Saurabh Singh
 
 </section>
 
@@ -181,6 +252,16 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f7988d3`](https://github.com/stdlib-js/stdlib/commit/f7988d3c02e0eff3bd9bd7523b5dc975bb98dc0e) - **bench:** fix `isnan` checks in `stats/base/dists` [(#5296)](https://github.com/stdlib-js/stdlib/pull/5296) _(by Karan Anand)_
+-   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
+-   [`f505ed5`](https://github.com/stdlib-js/stdlib/commit/f505ed56b0c0cc20458f9e51760d45d5abd60b36) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
+-   [`b9a2014`](https://github.com/stdlib-js/stdlib/commit/b9a2014b1181d30f86aa489ba90ad1f892ade8e8) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
+-   [`0258691`](https://github.com/stdlib-js/stdlib/commit/0258691625414f4a12a7a9c867adae7c9b2b0525) - **chore:** address commit comments for `betaprime/mode` [(#5080)](https://github.com/stdlib-js/stdlib/pull/5080) _(by Saurabh Singh)_
+-   [`e268004`](https://github.com/stdlib-js/stdlib/commit/e268004eb31316677242cddda82e150f88ad14a6) - **chore:** address commit comments for `betaprime/mean` [(#5081)](https://github.com/stdlib-js/stdlib/pull/5081) _(by Saurabh Singh)_
+-   [`6958670`](https://github.com/stdlib-js/stdlib/commit/695867014377f940a6ba5713ceaab4519d367bb3) - **feat:** add C implementation for `stats/base/dists/betaprime/mean` [(#4064)](https://github.com/stdlib-js/stdlib/pull/4064) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
+-   [`7a1ab74`](https://github.com/stdlib-js/stdlib/commit/7a1ab74ab292080a1479851e0986a781c7a88c1a) - **feat:** add C implementation for `stats/base/dists/betaprime/mode` [(#4065)](https://github.com/stdlib-js/stdlib/pull/4065) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
+-   [`68894a1`](https://github.com/stdlib-js/stdlib/commit/68894a16cc999587091fdc3b014d21b64d3dde79) - **bench:** refactor random number generation in `stats/base/dists/betaprime` [(#4840)](https://github.com/stdlib-js/stdlib/pull/4840) _(by Karan Anand)_
+-   [`f75a0ce`](https://github.com/stdlib-js/stdlib/commit/f75a0cef6a3112b166dba04c13bada9763cec350) - **chore:** use excess kurtosis consistently _(by Philipp Burckhardt)_
 -   [`f3df15f`](https://github.com/stdlib-js/stdlib/commit/f3df15f118d563573f27d2d2b96e35b842f05a18) - **chore:** directly draw from the desired distribution instead of adding constants _(by Philipp Burckhardt)_
 -   [`fc0ff17`](https://github.com/stdlib-js/stdlib/commit/fc0ff171dab59e73e1748c1bff504166adc826c3) - **chore:** directly draw from the desired distribution instead of adding constants _(by Philipp Burckhardt)_
 -   [`6a0d6b8`](https://github.com/stdlib-js/stdlib/commit/6a0d6b861f8e2079a501ca4e46a9175440eedb46) - **style:** update to use tabs for indentation _(by Philipp Burckhardt)_
