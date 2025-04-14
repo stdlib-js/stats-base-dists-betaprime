@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-24)
+## Unreleased (2025-04-14)
 
 <section class="packages">
 
@@ -33,6 +33,40 @@
 This release closes the following issue:
 
 [#3438](https://github.com/stdlib-js/stdlib/issues/3438)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-betaprime-logpdf-unreleased">
+
+#### [@stdlib/stats/base/dists/betaprime/logpdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/betaprime/logpdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`32bcc18`](https://github.com/stdlib-js/stdlib/commit/32bcc18c0da52986b47f0a6894e6566205e2fb91) - add C implementation for `stats/base/dists/betaprime/logpdf` [(#4059)](https://github.com/stdlib-js/stdlib/pull/4059)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+A total of 2 issues were closed in this release:
+
+[#3440](https://github.com/stdlib-js/stdlib/issues/3440), [#6500](https://github.com/stdlib-js/stdlib/issues/6500)
 
 </section>
 
@@ -101,6 +135,40 @@ A total of 2 issues were closed in this release:
 A total of 2 issues were closed in this release:
 
 [#3442](https://github.com/stdlib-js/stdlib/issues/3442), [#5071](https://github.com/stdlib-js/stdlib/issues/5071)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="stats-base-dists-betaprime-pdf-unreleased">
+
+#### [@stdlib/stats/base/dists/betaprime/pdf](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/betaprime/pdf)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`88e00d0`](https://github.com/stdlib-js/stdlib/commit/88e00d0a5088bc65bcf54b303fa774f9d382629b) - add C implementation for `stats/base/dists/betaprime/pdf` [(#4057)](https://github.com/stdlib-js/stdlib/pull/4057)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3443](https://github.com/stdlib-js/stdlib/issues/3443)
 
 </section>
 
@@ -222,9 +290,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 8 issues were closed in this release:
+A total of 11 issues were closed in this release:
 
-[#3438](https://github.com/stdlib-js/stdlib/issues/3438), [#3441](https://github.com/stdlib-js/stdlib/issues/3441), [#3442](https://github.com/stdlib-js/stdlib/issues/3442), [#3445](https://github.com/stdlib-js/stdlib/issues/3445), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3447](https://github.com/stdlib-js/stdlib/issues/3447), [#5070](https://github.com/stdlib-js/stdlib/issues/5070), [#5071](https://github.com/stdlib-js/stdlib/issues/5071)
+[#3438](https://github.com/stdlib-js/stdlib/issues/3438), [#3440](https://github.com/stdlib-js/stdlib/issues/3440), [#3441](https://github.com/stdlib-js/stdlib/issues/3441), [#3442](https://github.com/stdlib-js/stdlib/issues/3442), [#3443](https://github.com/stdlib-js/stdlib/issues/3443), [#3445](https://github.com/stdlib-js/stdlib/issues/3445), [#3446](https://github.com/stdlib-js/stdlib/issues/3446), [#3447](https://github.com/stdlib-js/stdlib/issues/3447), [#5070](https://github.com/stdlib-js/stdlib/issues/5070), [#5071](https://github.com/stdlib-js/stdlib/issues/5071), [#6500](https://github.com/stdlib-js/stdlib/issues/6500)
 
 </section>
 
@@ -234,10 +302,11 @@ A total of 8 issues were closed in this release:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Karan Anand
+-   Muhmmad Saad
 -   Neeraj Pathak
 -   Philipp Burckhardt
 -   Saurabh Singh
@@ -252,6 +321,11 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8b5f811`](https://github.com/stdlib-js/stdlib/commit/8b5f811082ea3dd98f68b9863531fc2c80835020) - **chore:** address commit comments [(#6528)](https://github.com/stdlib-js/stdlib/pull/6528) _(by Muhmmad Saad)_
+-   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
+-   [`88e00d0`](https://github.com/stdlib-js/stdlib/commit/88e00d0a5088bc65bcf54b303fa774f9d382629b) - **feat:** add C implementation for `stats/base/dists/betaprime/pdf` [(#4057)](https://github.com/stdlib-js/stdlib/pull/4057) _(by Neeraj Pathak, Philipp Burckhardt, stdlib-bot)_
+-   [`2366870`](https://github.com/stdlib-js/stdlib/commit/23668709f2da0d4a3e3f5eb401eebaf03eb328cd) - **refactor:** use const double for parameter in `stats/base/dists/betaprime/logpdf` [(#6452)](https://github.com/stdlib-js/stdlib/pull/6452) _(by Neeraj Pathak)_
+-   [`32bcc18`](https://github.com/stdlib-js/stdlib/commit/32bcc18c0da52986b47f0a6894e6566205e2fb91) - **feat:** add C implementation for `stats/base/dists/betaprime/logpdf` [(#4059)](https://github.com/stdlib-js/stdlib/pull/4059) _(by Neeraj Pathak, stdlib-bot)_
 -   [`f7988d3`](https://github.com/stdlib-js/stdlib/commit/f7988d3c02e0eff3bd9bd7523b5dc975bb98dc0e) - **bench:** fix `isnan` checks in `stats/base/dists` [(#5296)](https://github.com/stdlib-js/stdlib/pull/5296) _(by Karan Anand)_
 -   [`e61b1de`](https://github.com/stdlib-js/stdlib/commit/e61b1dee3334bacf30d213de5b5f1c7868c0753b) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
 -   [`f505ed5`](https://github.com/stdlib-js/stdlib/commit/f505ed56b0c0cc20458f9e51760d45d5abd60b36) - **docs:** clean-up of C docstrings _(by Philipp Burckhardt)_
