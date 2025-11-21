@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-30)
+## Unreleased (2025-11-21)
 
 <section class="features">
 
@@ -41,11 +41,19 @@ A total of 11 issues were closed in this release:
 
 <details>
 
--   [`3353337`](https://github.com/stdlib-js/stdlib/commit/3353337506226163bbe65241b088b899f0a4b60c) - **bench:** update random value generation [(#6840)](https://github.com/stdlib-js/stdlib/pull/6840) _(by Harsh)_
--   [`5301df6`](https://github.com/stdlib-js/stdlib/commit/5301df6699ae3b3229da3a8ab0ecd281f02f460e) - **bench:** update random value generation [(#6841)](https://github.com/stdlib-js/stdlib/pull/6841) _(by Harsh)_
--   [`e8dea99`](https://github.com/stdlib-js/stdlib/commit/e8dea9975e4b6fa5b11e6bfbf90f92af904b6786) - **bench:** update random value generation [(#6842)](https://github.com/stdlib-js/stdlib/pull/6842) _(by Harsh)_
--   [`b59ce6f`](https://github.com/stdlib-js/stdlib/commit/b59ce6ffab63e0027ac910b7c91a9082edea925e) - **docs:** replace manual `for` loop in examples [(#6831)](https://github.com/stdlib-js/stdlib/pull/6831) _(by Harsh)_
--   [`b2aa3f7`](https://github.com/stdlib-js/stdlib/commit/b2aa3f7fc67e416f476455522f9189d586915d2e) - **docs:** replace manual `for` loop in examples [(#6830)](https://github.com/stdlib-js/stdlib/pull/6830) _(by Harsh)_
+-   [`2cabe18`](https://github.com/stdlib-js/stdlib/commit/2cabe1887e6a502a306b70580fb5d038da0917f3) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
+-   [`97218a1`](https://github.com/stdlib-js/stdlib/commit/97218a12e1d5ec1479a5b39ac4d32318c372e922) - **docs:** fix TSDoc example code return annotations _(by Philipp Burckhardt)_
+-   [`e2efe32`](https://github.com/stdlib-js/stdlib/commit/e2efe32914d0d9dae5da34e6f7e7bf7655430710) - **chore:** rename exported variable in d.ts file to match name used in example code _(by Philipp Burckhardt)_
+-   [`e678757`](https://github.com/stdlib-js/stdlib/commit/e678757c9a62631a907278ec13a5d7b27c0f1e15) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
+-   [`83af59d`](https://github.com/stdlib-js/stdlib/commit/83af59de17b7e0db3d95fb5959ec0f38cf63c88e) - **test:** increase needed tolerances for tests to pass _(by Philipp Burckhardt)_
+-   [`3353337`](https://github.com/stdlib-js/stdlib/commit/3353337506226163bbe65241b088b899f0a4b60c) - **bench:** update random value generation [(#6840)](https://github.com/stdlib-js/stdlib/pull/6840) _(by Harsh Yadav)_
+-   [`5301df6`](https://github.com/stdlib-js/stdlib/commit/5301df6699ae3b3229da3a8ab0ecd281f02f460e) - **bench:** update random value generation [(#6841)](https://github.com/stdlib-js/stdlib/pull/6841) _(by Harsh Yadav)_
+-   [`e8dea99`](https://github.com/stdlib-js/stdlib/commit/e8dea9975e4b6fa5b11e6bfbf90f92af904b6786) - **bench:** update random value generation [(#6842)](https://github.com/stdlib-js/stdlib/pull/6842) _(by Harsh Yadav)_
+-   [`b59ce6f`](https://github.com/stdlib-js/stdlib/commit/b59ce6ffab63e0027ac910b7c91a9082edea925e) - **docs:** replace manual `for` loop in examples [(#6831)](https://github.com/stdlib-js/stdlib/pull/6831) _(by Harsh Yadav)_
+-   [`b2aa3f7`](https://github.com/stdlib-js/stdlib/commit/b2aa3f7fc67e416f476455522f9189d586915d2e) - **docs:** replace manual `for` loop in examples [(#6830)](https://github.com/stdlib-js/stdlib/pull/6830) _(by Harsh Yadav)_
 -   [`23c60da`](https://github.com/stdlib-js/stdlib/commit/23c60daf037b609ab1315f45448e0ba52a89c247) - **docs:** remove spaces before periods _(by Philipp Burckhardt)_
 -   [`8b5f811`](https://github.com/stdlib-js/stdlib/commit/8b5f811082ea3dd98f68b9863531fc2c80835020) - **chore:** address commit comments [(#6528)](https://github.com/stdlib-js/stdlib/pull/6528) _(by Muhmmad Saad)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
@@ -86,7 +94,7 @@ A total of 11 issues were closed in this release:
 A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
 -   Muhmmad Saad
 -   Neeraj Pathak
