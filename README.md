@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import betaprime from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-betaprime/tags). For example,
+
+```javascript
 import betaprime from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { BetaPrime, cdf, kurtosis, logcdf, logpdf, mean, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime@v0.3.1-deno/mod.js';
+import { BetaPrime, cdf, kurtosis, logcdf, logpdf, mean, mode, pdf, quantile, skewness, stdev, variance } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime@deno/mod.js';
 ```
 
 #### betaprime
@@ -128,7 +133,7 @@ var mu = dist.mean;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import betaprime from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime@v0.3.1-deno/mod.js';
+import betaprime from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime@deno/mod.js';
 
 console.log( objectKeys( betaprime ) );
 ```
