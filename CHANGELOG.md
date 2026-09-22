@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-09-22)
 
 <section class="commits">
 
@@ -12,6 +12,12 @@
 
 <details>
 
+-   [`b9ef8b3`](https://github.com/stdlib-js/stdlib/commit/b9ef8b39c85630518864e49f0cbb7b0df0609214) - **test:** migrate `stats/base/dists/betaprime/pdf` to ULP-based assertions [(#15011)](https://github.com/stdlib-js/stdlib/pull/15011) _(by Athan Reines)_
+-   [`6be877e`](https://github.com/stdlib-js/stdlib/commit/6be877ef64519a3555f349343d04a87d3358f8ec) - **test:** migrate `stats/base/dists/betaprime/cdf` to ULP-based assertions [(#14962)](https://github.com/stdlib-js/stdlib/pull/14962) _(by Athan Reines)_
+-   [`2991512`](https://github.com/stdlib-js/stdlib/commit/29915129b1c6c765256c67561c5fa0a8cc6992c6) - **test:** migrate `stats/base/dists/betaprime/skewness` to ULP-based assertions [(#14876)](https://github.com/stdlib-js/stdlib/pull/14876) _(by Athan Reines)_
+-   [`89776d1`](https://github.com/stdlib-js/stdlib/commit/89776d13e1004ad7926a85d6a24c3f03a50bf3ef) - **test:** migrate `stats/base/dists/betaprime/kurtosis` to ULP-based assertions [(#14750)](https://github.com/stdlib-js/stdlib/pull/14750) _(by Athan Reines)_
+-   [`9dade40`](https://github.com/stdlib-js/stdlib/commit/9dade40e96b09c883e198042e61c1527f2636b2f) - **test:** migrate `stats/base/dists/betaprime/variance` to ULP-based assertions [(#14576)](https://github.com/stdlib-js/stdlib/pull/14576) _(by Athan Reines)_
+-   [`20e8311`](https://github.com/stdlib-js/stdlib/commit/20e831154be5c486da20e791b0b8e290fd6932de) - **test:** migrate `stats/base/dists/betaprime/stdev` to ULP-based assertions [(#14455)](https://github.com/stdlib-js/stdlib/pull/14455) _(by Philipp Burckhardt)_
 -   [`0f24d0d`](https://github.com/stdlib-js/stdlib/commit/0f24d0d9f742c471f083ad6c00df814e05053d12) - **docs:** update descriptions and comments [(#13451)](https://github.com/stdlib-js/stdlib/pull/13451) _(by Philipp Burckhardt)_
 -   [`b5b7b4c`](https://github.com/stdlib-js/stdlib/commit/b5b7b4cf9937655b9167cb0145394c787f36faeb) - **refactor:** add `isnan` guards [(#13362)](https://github.com/stdlib-js/stdlib/pull/13362) _(by Philipp Burckhardt)_
 -   [`6e257ba`](https://github.com/stdlib-js/stdlib/commit/6e257ba3c4b7378563f97f474f98794949b3dce1) - **chore:** fix copy-paste mistakes [(#13281)](https://github.com/stdlib-js/stdlib/pull/13281) _(by Philipp Burckhardt)_
