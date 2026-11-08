@@ -4,7 +4,31 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-22)
+## Unreleased (2026-11-08)
+
+<section class="features">
+
+### Features
+
+-   [`c36cc64`](https://github.com/stdlib-js/stdlib/commit/c36cc641cd521406e2ad821691962693267a2d78) - add C implementation for `stats/base/dists/betaprime/logcdf` [(#14676)](https://github.com/stdlib-js/stdlib/pull/14676)
+-   [`25b78b3`](https://github.com/stdlib-js/stdlib/commit/25b78b3fe465eceaee9a237e2c4839a4cf23de78) - add C implementation for `stats/base/dists/betaprime/cdf` [(#14675)](https://github.com/stdlib-js/stdlib/pull/14675)
+-   [`93262c2`](https://github.com/stdlib-js/stdlib/commit/93262c260032936836c2eb5d20470d40e01febdc) - add C implementations for beta prime and F distribution quantile [(#15388)](https://github.com/stdlib-js/stdlib/pull/15388) [(#15410)](https://github.com/stdlib-js/stdlib/pull/15410)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 2 issues were closed in this release:
+
+[#3437](https://github.com/stdlib-js/stdlib/issues/3437), [#3439](https://github.com/stdlib-js/stdlib/issues/3439)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +36,13 @@
 
 <details>
 
+-   [`8f62240`](https://github.com/stdlib-js/stdlib/commit/8f622403b8f6ff3781a17dc7ceb077e341e91aa3) - **docs:** clean-up [(#16084)](https://github.com/stdlib-js/stdlib/pull/16084) _(by Philipp Burckhardt)_
+-   [`c36cc64`](https://github.com/stdlib-js/stdlib/commit/c36cc641cd521406e2ad821691962693267a2d78) - **feat:** add C implementation for `stats/base/dists/betaprime/logcdf` [(#14676)](https://github.com/stdlib-js/stdlib/pull/14676) _(by Philipp Burckhardt, Karan Anand)_
+-   [`25b78b3`](https://github.com/stdlib-js/stdlib/commit/25b78b3fe465eceaee9a237e2c4839a4cf23de78) - **feat:** add C implementation for `stats/base/dists/betaprime/cdf` [(#14675)](https://github.com/stdlib-js/stdlib/pull/14675) _(by Philipp Burckhardt, Karan Anand)_
+-   [`93262c2`](https://github.com/stdlib-js/stdlib/commit/93262c260032936836c2eb5d20470d40e01febdc) - **feat:** add C implementations for beta prime and F distribution quantile [(#15388)](https://github.com/stdlib-js/stdlib/pull/15388) [(#15410)](https://github.com/stdlib-js/stdlib/pull/15410) _(by Philipp Burckhardt, Karan Anand)_
+-   [`493f958`](https://github.com/stdlib-js/stdlib/commit/493f958fc9f1c83cf7139602ed3935a76bce4dcb) - **test:** migrate `stats/base/dists/betaprime/logpdf` to ULP-based assertions [(#15736)](https://github.com/stdlib-js/stdlib/pull/15736) _(by Athan Reines)_
+-   [`e0366b2`](https://github.com/stdlib-js/stdlib/commit/e0366b2a7b2aec0f7c5108e17dd2643e9f31e53f) - **test:** migrate `stats/base/dists/betaprime/logcdf` to ULP-based assertions [(#15519)](https://github.com/stdlib-js/stdlib/pull/15519) _(by Athan Reines)_
+-   [`c20ef7a`](https://github.com/stdlib-js/stdlib/commit/c20ef7aed3f6d83461d412f3134f10349e056e4a) - **test:** migrate `stats/base/dists/betaprime/quantile` to ULP-based assertions [(#15408)](https://github.com/stdlib-js/stdlib/pull/15408) _(by Divyanshu)_
 -   [`b9ef8b3`](https://github.com/stdlib-js/stdlib/commit/b9ef8b39c85630518864e49f0cbb7b0df0609214) - **test:** migrate `stats/base/dists/betaprime/pdf` to ULP-based assertions [(#15011)](https://github.com/stdlib-js/stdlib/pull/15011) _(by Athan Reines)_
 -   [`6be877e`](https://github.com/stdlib-js/stdlib/commit/6be877ef64519a3555f349343d04a87d3358f8ec) - **test:** migrate `stats/base/dists/betaprime/cdf` to ULP-based assertions [(#14962)](https://github.com/stdlib-js/stdlib/pull/14962) _(by Athan Reines)_
 -   [`2991512`](https://github.com/stdlib-js/stdlib/commit/29915129b1c6c765256c67561c5fa0a8cc6992c6) - **test:** migrate `stats/base/dists/betaprime/skewness` to ULP-based assertions [(#14876)](https://github.com/stdlib-js/stdlib/pull/14876) _(by Athan Reines)_
@@ -37,9 +68,11 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Divyanshu
+-   Karan Anand
 -   Om-A-osc
 -   Philipp Burckhardt
 -   anee3
